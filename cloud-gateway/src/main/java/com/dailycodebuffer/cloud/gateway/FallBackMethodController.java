@@ -15,6 +15,6 @@ public class FallBackMethodController {
     @GetMapping("/departmentServiceFallBack")
     public String departmentServiceFallBackMethod() {
         return "Department Service is taking longer than Expected." +
-                " Please try again later some time";
+                " Please try again later ";
     }
 }
